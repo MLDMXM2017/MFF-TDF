@@ -6,14 +6,14 @@ Automated Tongue Diagnosis for Fatty Liver Disease Using Multi-Source Feature Fu
 We constructed and publicly released a medium-sized standardized tongue image dataset annotated for FLD. The dataset included the participants' tongue images, basic physiological indicators, and FLD labels. The participants were recruited from a Prospective Cohort of Cancer and Chronic Disease Residents in Fuqing City, which was the first large dynamic prospective cohort study in Fujian Province, China. This cohort study was approved by the Ethics Review Committee of Fujian Medical University (approval numbers [2017-07] and [2020-58]), and written informed consent was obtained from all participants.
 The inclusion criteria were as follows: (1) permanent residency in Fuqing City, Fujian Province; (2) age between 35 and 75 years; and (3) completion of both epidemiological data collection and tongue image acquisition between January and December 2021. The exclusion criteria were as follows: (1) incomplete tongue image collection, (2) incomplete epidemiological data, and (3) tongue images classified as noise samples owing to incorrect tongue protrusion posture or motion blur.
 We utilized a "TCM Diagnostic Device" equipped with an 8-megapixel camera to capture participants' facial images with protruded tongues. To respect privacy and enhance presentation, we segmented tongues from facial images and released tongue images with a black background. After excluding noise samples, the dataset comprised 5,717 samples, encompassing tongue images of 3,690 Non-FLD participants and 2,027 FLD patients.
-![image](https://github.com/MLDMXM2017/MFF-TDF/imgs/dataset_collection.png)
+![image](https://github.com/MLDMXM2017/MFF-TDF/tree/main/imgs/dataset_collection.png)
 # Method and Results
 Our proposed tongue diagnosis framework consisting of four steps: image preprocessing, multi-scale feature extraction, multi-source feature fusion diagnosis, and training or validation.
-![image](https://github.com/MLDMXM2017/MFF-TDF/imgs/dataset_collection.png)
+![image](https://github.com/MLDMXM2017/MFF-TDF/tree/main/imgs/dataset_collection.png)
 ## Results based on tongue image modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/imgs/results_based_on_images.png)
+![image](https://github.com/MLDMXM2017/MFF-TDF/tree/main/imgs/results_based_on_images.png)
 ## Results based on multi-source feature modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/imgs/results_base_on_multisource.png)
+![image](https://github.com/MLDMXM2017/MFF-TDF/tree/main/imgs/results_base_on_multisource.png)
 # Usage
 Python: 3.8.19
 

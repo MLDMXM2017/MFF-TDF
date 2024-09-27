@@ -10,10 +10,6 @@ We utilized a "TCM Diagnostic Device" equipped with an 8-megapixel camera to cap
 # Method and Results
 Our proposed tongue diagnosis framework consisting of four steps: image preprocessing, multi-scale feature extraction, multi-source feature fusion diagnosis, and training or validation.
 ![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/Framework.png)
-## Results based on tongue image modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/results_based_on_images.png)
-## Results based on multi-source feature modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/results_base_on_multisource.png)
 # Usage
 Python: 3.8.19
 

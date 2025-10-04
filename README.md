@@ -7,13 +7,9 @@ The inclusion criteria were as follows: (1) permanent residency in Fuqing City, 
 We utilized a "TCM Diagnostic Device" equipped with an 8-megapixel camera to capture participants' facial images with protruded tongues. To respect privacy and enhance presentation, we segmented tongues from facial images and released tongue images with a black background. After excluding noise samples, the dataset comprised 5,717 samples, encompassing tongue images of 3,690 Non-FLD participants and 2,027 FLD patients. Additionally, each participant’s data included eight physiological indicators: sex, age, height, waist circumference, hip circumference, weight, systolic blood pressure (SBP), and diastolic blood pressure (DBP).
 ![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/dataset_collection.png)
 
-# Method and Results
+# Method
 Our proposed tongue diagnosis framework consisting of four steps: image preprocessing, multi-scale feature extraction, multi-source feature fusion diagnosis, and training or validation.
 ![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/Framework.png)
-## Results based on tongue image modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/results_based_on_images.png)
-## Results based on multi-source feature modeling
-![image](https://github.com/MLDMXM2017/MFF-TDF/blob/main/imgs/results_base_on_multisource.png)
 
 # Compliance with Ethics Requirements
 All procedures followed were in accordance with the ethical standards of the responsible committee on human experimentation (the Ethics Review Committee of Fujian Medical University, China, approval numbers [2017–07] and [2020–58]) and with the Helsinki Declaration of 1975, as revised in 2008 and 2024. Informed consent was obtained from all participants for being included in the study
